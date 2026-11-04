@@ -18,7 +18,7 @@ I want a visitor to understand in ten seconds what I can do: AI agents running i
 
 ## What is built
 
-In progress: mockup online, not yet published at the domain root.
+Online since 4 November 2026: Home and Portfolio are published; About and Resources are under construction.
 
 - Menu: Home, Portfolio, About, Resources.
 - Home: an eye-shaped logo that follows the mouse, an entrance that zooms into the eye, tab changes shown as a blink; three trades (development, training, consulting), each with its own card.
@@ -29,7 +29,7 @@ In progress: mockup online, not yet published at the domain root.
 
 ## What is public
 
-The site mockup is visible online: <https://projets.ingevision.cloud/design/personal-website-2026-10-27-144755/site.html>. The code stays private until the final launch, when the repository will become public.
+The site is online: <https://ingevision.cloud>. The code stays private.
 
 ## Tech stack
 
@@ -60,7 +60,7 @@ Je veux qu'un visiteur comprenne en dix secondes ce que je sais faire : des agen
 
 ## Ce qui est construit
 
-En cours : maquette en ligne, pas encore publiée à la racine du domaine.
+En ligne depuis le 4 novembre 2026 : Accueil et Portfolio sont publiés ; À propos et Ressources sont en chantier.
 
 - Menu : Accueil, Portfolio, À propos, Ressources.
 - Accueil : logo en forme d'œil qui suit la souris, entrée par un zoom dans l'œil, changement d'onglet par un clignement ; trois métiers (développement, formation, consulting), chacun avec sa carte.
@@ -71,7 +71,7 @@ En cours : maquette en ligne, pas encore publiée à la racine du domaine.
 
 ## Ce qui est public
 
-La maquette du site est visible en ligne : <https://projets.ingevision.cloud/design/personal-website-2026-10-27-144755/site.html>. Le code reste privé jusqu'à la mise en ligne finale, où le dépôt deviendra public.
+Le site est en ligne : <https://ingevision.cloud>. Le code reste privé.
 
 ## Pile technique
 
