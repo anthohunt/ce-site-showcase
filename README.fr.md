@@ -4,6 +4,8 @@
 
 > Dépôt vitrine : le code et les données de ce projet sont privés ; ce README le décrit.
 
+![Page d'accueil de ingevision.cloud](accueil.png)
+
 # Ce site
 
 Mon site personnel, conçu et construit de bout en bout par ma pipeline de création d'applications web.
@@ -14,22 +16,24 @@ Je veux qu'un visiteur comprenne en dix secondes ce que je sais faire : des agen
 
 ## Comment ça marche
 
-- La pipeline web app part d'un cahier des charges : trois parcours utilisateur et douze histoires, validés un par un.
-- Elle produit une maquette interactive avec un gabarit de revue : parcours à gauche, commentaires partagés ancrés à droite.
-- Un script Python assemble la page à partir de ses morceaux (corps HTML, scènes, animations, histoires) et y inscrit un numéro de version.
-- Un script de publication met en ligne chaque version sous un nom neuf et fait pointer un lien fixe vers la dernière, pour qu'on ne voie jamais une version en cache.
-- Une seconde version, sans les panneaux de revue, montre le site tel qu'un visiteur le verra.
+- La pipeline web app part d'un cahier des charges : des parcours utilisateur et des user stories, validés un par un.
+- Elle produit une maquette interactive dans un gabarit de revue : versions datées en haut, parcours à gauche, commentaires partagés ancrés à droite. La maquette est derrière un mot de passe.
+- Un script Python assemble la page à partir de ses morceaux (corps HTML, scènes, animations, portraits des agents, user stories).
+- Un script de publication fabrique le site et sa maquette et met les deux en ligne ensemble. Une nouveauté part d'abord dans la maquette seulement ; elle passe sur le site après mon accord.
+- Chaque nuit, cinq agents passent sur le site l'un après l'autre : qualité (chaque user story rejouée dans un vrai navigateur, ordinateur et téléphone, chaque fiche comparée à son dépôt), performance, sécurité, et deux qui cherchent à qui le site peut servir. Ils corrigent seuls ce qui est factuel ; le reste arrive dans un mail court le matin, sous forme de questions.
 
 ## Ce qui est construit
 
-En ligne depuis le 4 novembre 2026 : Accueil et Portfolio sont publiés ; À propos et Ressources sont en chantier.
+En ligne depuis le 4 novembre 2026 sur ingevision.cloud, en français et en anglais.
 
-- Menu : Accueil, Portfolio, À propos, Ressources.
-- Accueil : logo en forme d'œil qui suit la souris, entrée par un zoom dans l'œil, changement d'onglet par un clignement ; trois métiers (développement, formation, consulting), chacun avec sa carte.
-- « Derniers projets » : quatre projets phares, chacun avec sa vidéo en tuile (60 s, 30 s, 20 s et 22 s) et une fiche qui s'ouvre au clic (vidéo et carte descriptive, chiffres repris des dépôts).
-- Portfolio : 35 projets rangés dans six coffres, ouverts en grille de quatre.
-- Ressources : outils gratuits que je partage, et où je publie.
-- Bascule français / anglais.
+- Menu : Accueil, Portfolio, Agents / IA, Services, À propos.
+- Accueil : logo en forme d'œil qui suit la souris ; ouverture par un zoom dans l'œil, jouée seulement à l'arrivée depuis un autre site, qu'on peut passer d'un clic ; trois métiers (développement, formation, consulting), chacun avec sa carte ; quatre projets phares avec leur vidéo en tuile.
+- Portfolio : les quatre projets phares, puis une bibliothèque de 25 projets rangés dans six coffres. Chaque fiche s'ouvre par-dessus la page, avec la description du projet et le lien vers son dépôt.
+- Agents / IA : les agents qui tournent seuls, chacun avec son portrait animé et sa scène de travail ; le compteur d'utilisation réelle de mes skills publics ; les skills et outils à télécharger.
+- Services : l'accompagnement de projets, cinq domaines reliés aux projets du portfolio, quatre étapes qui se déplient.
+- À propos : mon parcours, mon texte et mes photos.
+- Chaque écran et chaque fiche a sa propre adresse, à partager.
+- Une seule charte de couleurs : bleu, jaune et blanc.
 
 ## Ce qui est public
 
@@ -40,4 +44,5 @@ Le site est en ligne : <https://ingevision.cloud>. Le code reste privé.
 - HTML, CSS et JavaScript
 - GSAP 3.12.5 pour les animations
 - Python pour l'assemblage des pages
-- Bash pour la publication
+- Bash et nginx pour la publication
+- Agents Claude Code et Playwright pour l'entretien de nuit
