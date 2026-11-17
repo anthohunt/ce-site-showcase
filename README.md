@@ -20,7 +20,13 @@
 
 ![ingevision.cloud architecture: Python scripts build the site from its source; a new feature goes to a password-protected mockup that I review, then online after my yes; visitors reach nginx on the VPS and open project repositories on GitHub; six night agents replay the site, fix what is factual and send questions for the morning](docs/architecture.svg)
 
-*The diagram and the video are in French.*
+<details><summary>French version</summary>
+
+![Architecture de ingevision.cloud : des scripts Python fabriquent le site depuis sa source ; une nouveauté part dans une maquette protégée par mot de passe que je relis, puis en ligne après mon oui ; les visiteurs arrivent sur nginx dans le VPS et ouvrent les dépôts des projets sur GitHub ; six agents de nuit rejouent le site, corrigent ce qui est factuel et posent leurs questions pour le matin](docs/architecture.fr.svg)
+
+</details>
+
+*The video is in French.*
 
 ## Deployment
 
