@@ -4,9 +4,15 @@
 
 **My website, built and looked after by AI agents.** Every change goes through a mockup I approve, and six agents go over the live site every night.
 
-[![The home page, the portfolio, a project's repository, the night team's page and the opening animation (click for the full video)](docs/demo.gif)](https://drive.google.com/file/d/1dYCj_mHaxn5QUMNkSFLy1lda-ZtOutVx/view)
+[![The home page, the portfolio, a project's repository, the agents page and Services, in English (click for the full video)](docs/demo.webp)](https://drive.google.com/file/d/1dYCj_mHaxn5QUMNkSFLy1lda-ZtOutVx/view)
 
-*Home, Portfolio, a project's repository, the night team, then the opening seen when arriving from another site. [Full video (1:27)](https://drive.google.com/file/d/1dYCj_mHaxn5QUMNkSFLy1lda-ZtOutVx/view)*
+<details><summary>French version</summary>
+
+[![L'accueil, le portfolio, le dépôt d'un projet, la page de l'équipe de nuit et l'animation d'ouverture (cliquer pour la vidéo complète)](docs/demo.fr.webp)](https://drive.google.com/file/d/1Va1JfjYJnmLrFipZOO_hmHsMxAhPU19T/view)
+
+</details>
+
+*Home, Portfolio, a project's repository, the agents page, then Services, on the English site. [Full video (1:42)](https://drive.google.com/file/d/1dYCj_mHaxn5QUMNkSFLy1lda-ZtOutVx/view)*
 
 ## Using it
 
@@ -25,8 +31,6 @@
 ![Architecture de ingevision.cloud : des scripts Python fabriquent le site depuis sa source ; une nouveauté part dans une maquette protégée par mot de passe que je relis, puis en ligne après mon oui ; les visiteurs arrivent sur nginx dans le VPS et ouvrent les dépôts des projets sur GitHub ; six agents de nuit rejouent le site, corrigent ce qui est factuel et posent leurs questions pour le matin](docs/architecture.fr.svg)
 
 </details>
-
-*The demo video is in French.*
 
 ## Deployment
 
