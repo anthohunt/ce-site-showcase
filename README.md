@@ -1,48 +1,46 @@
 **English** · [Français](README.fr.md)
 
-**Anthony Hunt** · [Project page on ingevision.cloud](https://ingevision.cloud/?lang=en&p=ce-site) · [LinkedIn](https://www.linkedin.com/in/anthony-hunt-3948a9196) · [GitHub profile](https://github.com/anthohunt)
+# ingevision.cloud
 
-> Showcase repository: the code and data of this project are private; this README describes it.
+**My website, built and looked after by AI agents.** Every change goes through a mockup I approve, and six agents go over the live site every night.
 
-![Home page of ingevision.cloud](accueil.png)
+[![The home page, the portfolio, a project's repository, the agents page and Services, in English (click for the full video)](docs/demo.webp)](https://drive.google.com/file/d/1dYCj_mHaxn5QUMNkSFLy1lda-ZtOutVx/view)
 
-# This site
+<details><summary>French version</summary>
 
-My personal website, designed and built end to end by my web app pipeline.
+[![L'accueil, le portfolio, le dépôt d'un projet, la page de l'équipe de nuit et l'animation d'ouverture (cliquer pour la vidéo complète)](docs/demo.fr.webp)](https://drive.google.com/file/d/1Va1JfjYJnmLrFipZOO_hmHsMxAhPU19T/view)
 
-## The problem
+</details>
 
-I want a visitor to understand in ten seconds what I can do: AI agents running in production, with proof that they work. The site serves two audiences: a potential client arriving from LinkedIn who wants to know in one minute whether I can help, and an AI agent developer who wants to understand a project, see its code and its demo. It also shows the path taken: the site itself is a project of the pipeline.
+*Home, Portfolio, a project's repository, the agents page, then Services, on the English site. [Full video (1:42)](https://drive.google.com/file/d/1dYCj_mHaxn5QUMNkSFLy1lda-ZtOutVx/view)*
 
-## How it works
+## Using it
 
-- The web app pipeline starts from a specification: user journeys and user stories, approved one by one.
-- It produces an interactive mockup in a review template: dated versions at the top, journeys on the left, shared comments anchored on the right. The mockup sits behind a password.
-- A Python script assembles the page from its parts (HTML body, scenes, animations, agent portraits, user stories).
-- A publishing script builds the site and its mockup and puts both online together. A new feature first goes to the mockup only; it reaches the site once I approve it.
-- Every night, five agents go over the site one after the other: quality (every user story replayed in a real browser, desktop and phone, every project page checked against its repository), performance, security, and two that look for who the site could help. They fix factual issues on their own; everything else arrives in a short morning email, as questions.
+- **Home.** An eye-shaped logo follows the mouse; the opening zoom plays only for visitors coming from another site. Three activities: development, training, consulting.
+- **Portfolio.** Four flagship projects, then 25 projects in six chests. A click on a project opens its GitHub repository.
+- **Agents / AI.** 14 Claude Code agents and one local agent, each with an animated portrait and a scene of its work. A live count of how my public skills are used.
+- **Services.** Five areas linked to portfolio projects; four steps that unfold.
+- **French and English.** Every screen has its own address.
 
-## What is built
+## Architecture
 
-Live since 4 November 2026 at ingevision.cloud, in French and English.
+![ingevision.cloud architecture: Python scripts build the site from its source; a new feature goes to a password-protected mockup that I review, then online after my yes; visitors reach nginx on the VPS and open project repositories on GitHub; six night agents replay the site, fix what is factual and send questions for the morning](docs/architecture.svg)
 
-- Menu: Home, Portfolio, Agents / AI, Services, About.
-- Home: an eye-shaped logo that follows the mouse; an entrance that zooms into the eye, played only when arriving from another site and skippable with one click; three activities (development, training, consulting), each with its own card; four flagship projects with their video in a tile.
-- Portfolio: the four flagship projects, then a library of 25 projects sorted into six chests. Each project page opens over the page, with the project description and a link to its repository.
-- Agents / AI: the agents that run on their own, each with an animated portrait and a scene of its work; a live count of how often my public skills are really used; skills and tools to download.
-- Services: project support, five areas linked to portfolio projects, four steps that unfold.
-- About: my background, my text and my photos.
-- Every screen and every project page has its own address, to share.
-- One colour scheme only: blue, yellow and white.
+<details><summary>French version</summary>
 
-## What is public
+![Architecture de ingevision.cloud : des scripts Python fabriquent le site depuis sa source ; une nouveauté part dans une maquette protégée par mot de passe que je relis, puis en ligne après mon oui ; les visiteurs arrivent sur nginx dans le VPS et ouvrent les dépôts des projets sur GitHub ; six agents de nuit rejouent le site, corrigent ce qui est factuel et posent leurs questions pour le matin](docs/architecture.fr.svg)
 
-The site is live: <https://ingevision.cloud>. The code stays private.
+</details>
 
-## Tech stack
+## Deployment
 
-- HTML, CSS and JavaScript
-- GSAP 3.12.5 for animations
-- Python to assemble the pages
-- Bash and nginx for publishing
-- Claude Code agents and Playwright for the nightly upkeep
+- **Live** since 4 November 2026.
+- **Hosting.** My VPS: nginx in Docker behind Traefik, HTTPS, Brotli compression, content security policy with no inline-script exception.
+- **Night team.** Accessibility, client search, quality, performance and security, starting one after the other between 22:00 and 04:00 Paris time. Each fixes what is factual, checks it online, and asks the rest in the morning email.
+- **Stack.** HTML, CSS, JavaScript, GSAP, Python, Claude Code, Playwright.
+
+---
+
+**Anthony Hunt** · [ingevision.cloud](https://ingevision.cloud/en/) · [LinkedIn](https://www.linkedin.com/in/anthony-hunt-3948a9196) · [GitHub](https://github.com/anthohunt)
+
+The site's code is private.
