@@ -26,7 +26,7 @@
 
 </details>
 
-*The video is in French.*
+*The demo video is in French.*
 
 ## Deployment
 
