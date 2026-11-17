@@ -2,7 +2,7 @@
 
 # ingevision.cloud
 
-**Mon site, construit et entretenu par des agents IA.** Chaque changement passe par une maquette que je valide, et cinq agents repassent sur le site en ligne chaque nuit.
+**Mon site, construit et entretenu par des agents IA.** Chaque changement passe par une maquette que je valide, et six agents repassent sur le site en ligne chaque nuit.
 
 [![L'accueil, le portfolio, le dépôt d'un projet, la page de l'équipe de nuit et l'animation d'ouverture (cliquer pour la vidéo complète)](docs/demo.gif)](https://drive.google.com/file/d/1dYCj_mHaxn5QUMNkSFLy1lda-ZtOutVx/view)
 
@@ -12,13 +12,13 @@
 
 - **Accueil.** Un logo en forme d'œil suit la souris ; le zoom d'ouverture ne joue que pour un visiteur venu d'un autre site. Trois métiers : développement, formation, consulting.
 - **Portfolio.** Quatre projets phares, puis 25 projets rangés dans six coffres. Un clic sur un projet ouvre son dépôt GitHub.
-- **Agents / IA.** 13 agents Claude Code et un agent local, chacun avec son portrait animé et une scène de son travail. Le compteur d'usage réel de mes skills publics.
+- **Agents / IA.** 14 agents Claude Code et un agent local, chacun avec son portrait animé et une scène de son travail. Le compteur d'usage réel de mes skills publics.
 - **Services.** Cinq domaines reliés aux projets du portfolio ; quatre étapes qui se déplient.
 - **Français et anglais.** Chaque écran a sa propre adresse.
 
 ## Architecture
 
-![Architecture de ingevision.cloud : des scripts Python fabriquent le site depuis sa source ; une nouveauté part dans une maquette protégée par mot de passe que je relis, puis en ligne après mon oui ; les visiteurs arrivent sur nginx dans le VPS et ouvrent les dépôts des projets sur GitHub ; cinq agents de nuit rejouent le site, corrigent ce qui est factuel et posent leurs questions pour le matin](docs/architecture.svg)
+![Architecture de ingevision.cloud : des scripts Python fabriquent le site depuis sa source ; une nouveauté part dans une maquette protégée par mot de passe que je relis, puis en ligne après mon oui ; les visiteurs arrivent sur nginx dans le VPS et ouvrent les dépôts des projets sur GitHub ; six agents de nuit rejouent le site, corrigent ce qui est factuel et posent leurs questions pour le matin](docs/architecture.svg)
 
 ## Exploitation
 

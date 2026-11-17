@@ -2,7 +2,7 @@
 
 # ingevision.cloud
 
-**My website, built and looked after by AI agents.** Every change goes through a mockup I approve, and five agents go over the live site every night.
+**My website, built and looked after by AI agents.** Every change goes through a mockup I approve, and six agents go over the live site every night.
 
 [![The home page, the portfolio, a project's repository, the night team's page and the opening animation (click for the full video)](docs/demo.gif)](https://drive.google.com/file/d/1dYCj_mHaxn5QUMNkSFLy1lda-ZtOutVx/view)
 
@@ -12,13 +12,13 @@
 
 - **Home.** An eye-shaped logo follows the mouse; the opening zoom plays only for visitors coming from another site. Three activities: development, training, consulting.
 - **Portfolio.** Four flagship projects, then 25 projects in six chests. A click on a project opens its GitHub repository.
-- **Agents / AI.** 13 Claude Code agents and one local agent, each with an animated portrait and a scene of its work. A live count of how my public skills are used.
+- **Agents / AI.** 14 Claude Code agents and one local agent, each with an animated portrait and a scene of its work. A live count of how my public skills are used.
 - **Services.** Five areas linked to portfolio projects; four steps that unfold.
 - **French and English.** Every screen has its own address.
 
 ## Architecture
 
-![ingevision.cloud architecture: Python scripts build the site from its source; a new feature goes to a password-protected mockup that I review, then online after my yes; visitors reach nginx on the VPS and open project repositories on GitHub; five night agents replay the site, fix what is factual and send questions for the morning](docs/architecture.svg)
+![ingevision.cloud architecture: Python scripts build the site from its source; a new feature goes to a password-protected mockup that I review, then online after my yes; visitors reach nginx on the VPS and open project repositories on GitHub; six night agents replay the site, fix what is factual and send questions for the morning](docs/architecture.svg)
 
 *The diagram and the video are in French.*
 
