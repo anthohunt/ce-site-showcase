@@ -4,15 +4,15 @@
 
 **Mon site, construit et entretenu par des agents IA.** Chaque changement passe par une maquette que je valide, et six agents repassent sur le site en ligne chaque nuit.
 
-[![L'accueil, le portfolio, le dépôt d'un projet, la page des agents et les Services, sur le site en anglais (version anglaise, cliquer pour la vidéo complète)](docs/demo.webp)](https://drive.google.com/file/d/1dYCj_mHaxn5QUMNkSFLy1lda-ZtOutVx/view)
+![L'accueil, le portfolio, le dépôt d'un projet, la page des agents et les Services, sur le site en anglais (version anglaise)](docs/demo.webp)
 
 <details><summary>Version française</summary>
 
-[![L'accueil, le portfolio, le dépôt d'un projet, la page de l'équipe de nuit et l'animation d'ouverture (cliquer pour la vidéo complète)](docs/demo.fr.webp)](https://drive.google.com/file/d/1Va1JfjYJnmLrFipZOO_hmHsMxAhPU19T/view)
+![L'accueil, le portfolio, le dépôt d'un projet, la page de l'équipe de nuit et l'animation d'ouverture](docs/demo.fr.webp)
 
 </details>
 
-*Accueil, Portfolio, le dépôt d'un projet, l'équipe de nuit, puis l'ouverture vue en arrivant d'un autre site. [Vidéo complète (1 min 27)](https://drive.google.com/file/d/1Va1JfjYJnmLrFipZOO_hmHsMxAhPU19T/view)*
+*Accueil, Portfolio, le dépôt d'un projet, l'équipe de nuit, puis l'ouverture vue en arrivant d'un autre site.*
 
 ## Utilisation
 
